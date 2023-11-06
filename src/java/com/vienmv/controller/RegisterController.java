@@ -12,7 +12,6 @@ import javax.servlet.http.HttpSession;
 
 import com.vienmv.service.UserService;
 import com.vienmv.service.impl.UserServiceImpl;
-import com.vienmv.tools.SendMail;
 import com.vienmv.util.Constant;
 import javax.servlet.RequestDispatcher;
 
