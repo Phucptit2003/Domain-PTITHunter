@@ -274,7 +274,7 @@
 				<ul class="list-inline owl-slider">
 
 					<c:forEach items="${pwelcome }" var="p">
-						<c:url value="/image?fname=${p.image }" var="imgUrl"></c:url>
+						<c:url value="${p.image }" var="imgUrl"></c:url>
 						<li class="item">
 							<div class="product-img">
 								<a
@@ -376,7 +376,7 @@
 			<div class="row illustration-v2">
 
 				<c:forEach items="${pwelcome }" var="p">
-					<c:url value="/image?fname=${p.image }" var="imgUrl"></c:url>
+					<c:url value="${p.image }" var="imgUrl"></c:url>
 
 					<div class="col-md-3 col-sm-6 md-margin-bottom-30">
 						<div class="product-img">
