@@ -121,7 +121,7 @@
 						<!--/end shop product ratings-->
 						${product.des } <br>
 						<ul class="list-inline shop-product-prices margin-bottom-30">
-							<li class="shop-red">$ ${product.price }.0</li>
+							<li class="shop-red">$ ${product.price}.0</li>
 							<li class="line-through">${product.price * 1.25 }</li>
 							<li><small class="shop-bg-red time-day-left"> Best
 									Sale </small></li>

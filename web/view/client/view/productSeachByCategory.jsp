@@ -63,7 +63,7 @@
 			<div class="container">
 				<span class="page-name">Product  Page</span>
 				<h1>
-					Maecenas <span class="shop-green">enim</span> sapien
+					Protect <span class="shop-green">Your</span> Feet
 				</h1>
 				<ul class="breadcrumb-v4-in">
 					<li><a href="${pageContext.request.contextPath }">Home</a></li>
@@ -77,6 +77,7 @@
 
 		<!--=== Content Part ===-->
 		<div class="content container">
+                    
 			<div class="row">
 				<jsp:include page="/view/client/view/seach.jsp"></jsp:include>
 
@@ -90,7 +91,7 @@
 							<div class="row">
 							
 								<div class="col-sm-4">
-								<c:url value="/image?fname=${p.image }" var="imgUrl"></c:url>
+								<c:url value="${p.image }" var="imgUrl"></c:url>
 									<a href="${pageContext.request.contextPath }/product/detail?id=${p.id}"><img
 										class="img-responsive sm-margin-bottom-20"
 										src="${imgUrl}" alt=""></a>
@@ -101,7 +102,7 @@
 									<div class="overflow-h margin-bottom-5">
 										<ul class="list-inline overflow-h">
 											<li><h4 class="title-price">
-													<a href=""${pageContext.request.contextPath }/product/detail?id=${p.id}"">${p.name }</a>
+													<a href="${pageContext.request.contextPath }/product/detail?id=${p.id}">${p.name }</a>
 													
 												</h4></li>
 											<li><span class="gender text-uppercase">${p.category.name }</span></li>
@@ -124,9 +125,9 @@
 										
 										<ul class="list-inline add-to-wishlist margin-bottom-20">
 											<li class="wishlist-in"><i class="fa fa-heart"></i> <a
-												href=""${pageContext.request.contextPath }/product/detail?id=${p.id}"">Add to Wishlist</a></li>
+												href="${pageContext.request.contextPath }/product/detail?id=${p.id}">Add to Wishlist</a></li>
 											<li class="compare-in"><i class="fa fa-exchange"></i> <a
-												href=""${pageContext.request.contextPath }/product/detail?id=${p.id}"">Add to Compare</a></li>
+												href="${pageContext.request.contextPath }/product/detail?id=${p.id}">Add to Compare</a></li>
 										</ul>
 										<a href="${pageContext.request.contextPath }/product/detail?id=${p.id}" ><button type="button" class="btn-u btn-u-sea-shop">Add
 											to Cart</button></a>
@@ -146,8 +147,8 @@
 					<div class="text-center">
 						<ul class="pagination pagination-v2">
 							<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-							<li><a href="#">1</a></li>
-							<li class="active"><a href="#">2</a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
 							<li><a href="#">3</a></li>
 							<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
 						</ul>
@@ -158,6 +159,8 @@
 			<!--/end row-->
 		</div>
 		<!--/end container-->
+                
+                
 		<!--=== End Content Part ===-->
 
 		<!--=== Shop Suvbscribe ===-->

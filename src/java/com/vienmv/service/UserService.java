@@ -18,6 +18,10 @@ public interface UserService {
 	User login(String username, String password);
 	
 	boolean register(String email, String password, String username);
+        
+        boolean checkExistEmail(String email);
+	
+	boolean checkExistUsername(String username);
 
 	List<User> getAll();
 

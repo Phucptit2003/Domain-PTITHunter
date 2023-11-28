@@ -1,3 +1,4 @@
+
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -26,86 +27,32 @@
 
                     <!-- Nav Menu -->
                     <ul class="nav navbar-nav">
-                        <!-- Pages -->
+                        <!-- Men -->
                         <li class="dropdown active">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
-                                Pages
+                            <a href="${pageContext.request.contextPath }/product/category?cate_id=1">
+                                Men
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="${pageContext.request.contextPath }">Index</a></li>
-                                <li><a href="${pageContext.request.contextPath }/product/list">Product Page</a></li>
-                                <li><a href="${pageContext.request.contextPath }/product/list">Filter Grid Page</a></li>
-                                <li><a href="${pageContext.request.contextPath }/member/cart">Cart</a></li>
-                            </ul>
+                            
                         </li>
-                        <!-- End Pages -->
+                        <!-- End Men -->
 
-                        <!-- Promotion -->
+                        <!-- Women -->
                         <li class="dropdown">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
-                                Promotion
+                            <a href="${pageContext.request.contextPath }/product/category?cate_id=2">
+                                Women
                             </a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Shoes</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Sandals</a></li>
-                                        <li><a href="#">Hunter</a></li>
-                                        <li><a href="#">Football Futsal</a></li>
-                                    </ul>    
-                                </li>
-                            </ul>
+             
                         </li>
-                        <!-- End Promotion -->
+                        <!-- End Women -->
 
 
-                        <!-- Books -->
+                        <!-- Kid -->
                         <li class="dropdown mega-menu-fullwidth">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
-                                Books
+                            <a href="${pageContext.request.contextPath }/product/category?cate_id=3">
+                                Kid
                             </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <!-- <div class="mega-menu-content">-->
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-2 col-sm-6">
-                                                    <h3 class="mega-menu-heading">Hunter</h3>
-                                                    <h3 class="mega-menu-heading">Sandal</h3>
-                                                </div>
-
-                                                <div class="col-md-2 col-sm-6">
-                                                    <h3 class="mega-menu-heading">Football Futsal</h3>
-                                                    <h3 class="mega-menu-heading">Hunter Running</h3>
-                                                    <h3 class="mega-menu-heading">Popular</h3>
-                                                </div>       
-
-                                                <div class="col-md-2 col-sm-6">
-                                                    <h3 class="mega-menu-heading">Dép</h3>
-                                                    <h3 class="mega-menu-heading">Mocasin</h3>
-                                                </div>
-
-                                            </div><!--/end row-->
-                                        </div><!--/end container-->
-                                        <!--   </div><!--/end mega menu content-->  
-                                </li>
-                            </ul><!--/end dropdown-menu-->
                         </li>
-                        <!-- End Books -->
-
-                        <!-- Clothes -->
-                        <li class="dropdown">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000">
-                                FOR
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="http://localhost:8080/UNIFY/product/category?cate_id=1">Men</a></li>
-                                <li><a href="http://localhost:8080/UNIFY/product/category?cate_id=2">WOMEN</a></li>
-                                <li><a href="http://localhost:8080/UNIFY/product/category?cate_id=3">CHILDREN</a></li>
-                            </ul>
-                        </li>
-                        <!-- End Clothes -->
-
+                        <!-- End Kid -->
                     </ul>
                     <!-- End Nav Menu -->                    
                 </div>

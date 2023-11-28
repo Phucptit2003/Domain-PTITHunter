@@ -134,7 +134,9 @@
 						<form id="sky-form4" class="log-reg-block sky-form"
 							action="register" method="post">
 							<h2>Create New Account</h2>
-
+                                                        <c:if test="${not empty requestScope.alert}">
+                                                            <p style="color: red">${requestScope.alert}</p>
+                                                        </c:if>
 							<div class="login-input reg-input">
 								<section>
 									<label class="input"> <input type="text"
@@ -169,6 +171,7 @@
 							<button class="btn-u btn-u-sea-shop btn-block margin-bottom-20"
 								type="submit">Create Account</button>
 						</form>
+                                           
 
 						<div class="margin-bottom-20"></div>
 						<p class="text-center">

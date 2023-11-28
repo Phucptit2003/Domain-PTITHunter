@@ -89,7 +89,7 @@
 								<div class="row">
 
 									<div class="col-sm-4">
-										<c:url value="/image?fname=${p.image }" var="imgUrl"></c:url>
+										<c:url value="${p.image}" var="imgUrl"></c:url>
 										<a
 											href="${pageContext.request.contextPath }/product/detail?id=${p.id}"><img
 											class="img-responsive sm-margin-bottom-20" src="${imgUrl}"
@@ -101,8 +101,8 @@
 										<div class="overflow-h margin-bottom-5">
 											<ul class="list-inline overflow-h">
 												<li><h4 class="title-price">
-														<a href=""
-															${pageContext.request.contextPath }/product/detail?id=${p.id}"">${p.name }</a>
+														<a href="
+															${pageContext.request.contextPath }/product/detail?id=${p.id}">${p.name }</a>
 
 													</h4></li>
 												<li><span class="gender text-uppercase">${p.category.name }</span></li>
@@ -125,12 +125,12 @@
 
 											<ul class="list-inline add-to-wishlist margin-bottom-20">
 												<li class="wishlist-in"><i class="fa fa-heart"></i> <a
-													href=""
-													${pageContext.request.contextPath }/product/detail?id=${p.id}"">Add
+													href="
+													${pageContext.request.contextPath }/product/detail?id=${p.id}">Add
 														to Wishlist</a></li>
 												<li class="compare-in"><i class="fa fa-exchange"></i> <a
-													href=""
-													${pageContext.request.contextPath }/product/detail?id=${p.id}"">Add
+													href="
+													${pageContext.request.contextPath }/product/detail?id=${p.id}">Add
 														to Compare</a></li>
 											</ul>
 											<a

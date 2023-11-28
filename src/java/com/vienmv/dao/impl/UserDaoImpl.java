@@ -12,6 +12,13 @@ import com.vienmv.jdbc.JDBCConnection;
 import com.vienmv.model.User;
 
 public class UserDaoImpl extends JDBCConnection implements UserDao {
+        public static void main(String[] args) {
+            UserDaoImpl dao = new UserDaoImpl();
+            List<User> list = dao.getAll();
+            for(User x:list) {
+                System.out.println(x.getEmail());
+            }
+        }
 
 	@Override
 	public void insert(User user) {
@@ -168,7 +175,7 @@ public class UserDaoImpl extends JDBCConnection implements UserDao {
 
 		return userList;
 	}
-        /*
+        
 	@Override
 	public List<User> search(String keyword) {
 		List<User> userList = new ArrayList<User>();
@@ -221,8 +228,8 @@ public class UserDaoImpl extends JDBCConnection implements UserDao {
 		}
 		return duplicate;
 	}
-        */
-        /*
+        
+        
 	public boolean checkExistUsername(String username) {
 		boolean duplicate = false;
 		Connection conn = JDBCConnection.getJDBCConnection();
@@ -244,6 +251,6 @@ public class UserDaoImpl extends JDBCConnection implements UserDao {
 		}
 		return duplicate;
 	}
-        */
+        
 
 }

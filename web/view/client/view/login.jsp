@@ -98,7 +98,6 @@
 			<!--/end container-->
 		</div>
 		<!--=== End Breadcrumbs v4 ===-->
-
 		<!--=== Login ===-->
 		<div class="log-reg-v3 content-md">
 			<div class="container">
@@ -134,9 +133,9 @@
 						<form id="sky-form1" class="log-reg-block sky-form" action="login"
 							method="post">
 							<h2>Log in to your account</h2>
-							<h3>${alertMsg }</h3>
-
-
+                                                <c:if test="${not empty requestScope.alert}">
+                                                    <p style="color: red">${requestScope.alert}</p>
+                                                </c:if>
 							<section>
 								<label class="input login-input">
 									<div class="input-group">

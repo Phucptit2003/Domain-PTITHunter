@@ -322,13 +322,9 @@
 
 					<div class="filter-results">
 						<div class="row illustration-v2 margin-bottom-30">
-						
-						
-						
-						
 						<c:forEach items="${productList }" var="p" >						
-							<c:url value="/image?fname=${p.image }" var="imgUrl"></c:url>
 							
+		
 							<div class="col-md-4">
 								<div class="product-img product-img-brd">
 									<a href="${pageContext.request.contextPath }/product/detail?id=${p.id}"><img class="full-width img-responsive"
@@ -597,8 +593,8 @@
 					<div class="text-center">
 						<ul class="pagination pagination-v2">
 							<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-							<li><a href="#">1</a></li>
-							<li class="active"><a href="#">2</a></li>
+							<li class ="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
 							<li><a href="#">3</a></li>
 							<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
 						</ul>

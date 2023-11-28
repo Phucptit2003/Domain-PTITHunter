@@ -16,11 +16,11 @@ public interface UserDao {
 	User get(int id);
 
 	List<User> getAll();
-        /*
+        
 	List<User> search(String username);
-	/*
+	
 	boolean checkExistEmail(String email);
 	
 	boolean checkExistUsername(String username);
-        */
+        
 }
