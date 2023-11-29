@@ -1,4 +1,4 @@
-/*
+
 package com.vienmv.util;
 
 import java.util.UUID;
@@ -10,4 +10,4 @@ public class RandomUUID {
 		return uuid.toString();
 	}
 }
-*/
+
