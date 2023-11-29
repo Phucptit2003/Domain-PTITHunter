@@ -85,7 +85,7 @@
 							<!-- Master Slider -->
 							<div class="master-slider ms-skin-default" id="masterslider">
 								<div class="ms-slide">
-									<c:url value="/image?fname=${product.image }" var="imgUrl"></c:url>
+									<c:url value="${product.image }" var="imgUrl"></c:url>
 									<img class="ms-brd" src="${url}/img/blank.gif"
 										data-src="${imgUrl}" alt="${product.name }">
 
