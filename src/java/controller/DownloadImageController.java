@@ -1,3 +1,4 @@
+/*
 package controller;
 
 import java.io.File;
@@ -29,3 +30,4 @@ public class DownloadImageController extends HttpServlet {
 		}
 	}
 }
+*/

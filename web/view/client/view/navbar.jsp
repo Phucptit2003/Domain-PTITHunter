@@ -28,7 +28,7 @@
                     <!-- Nav Menu -->
                     <ul class="nav navbar-nav">
                         <!-- Men -->
-                        <li class="dropdown active">
+                        <li class="dropdown">
                             <a href="${pageContext.request.contextPath }/product/category?cate_id=1">
                                 Men
                             </a>

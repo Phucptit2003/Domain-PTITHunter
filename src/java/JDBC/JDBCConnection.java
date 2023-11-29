@@ -10,8 +10,8 @@ public class JDBCConnection {
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			String user = "sa";
-			String pass = "123456";
-			String url = "jdbc:sqlserver://localhost:1433;databaseName=Webapp;encrypt = true;trustServerCertificate = true";
+			String pass = "12345";
+			String url = "jdbc:sqlserver://localhost:1433;databaseName=WebApplication1;encrypt = true;trustServerCertificate = true";
 			connection = DriverManager.getConnection(url, user, pass);
 			System.out.println("thanh cong");
 			
