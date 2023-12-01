@@ -243,38 +243,10 @@
 					<div class="tab-pane fade in active" id="description">
 						<div class="row">
 							<div class="col-md-7">
-								<p>Morbi non semper est, eget tincidunt turpis. Vivamus
-									sollicitudin sodales nisi, et venenatis turpis Vivamus
-									sollicitudin ultricies eget. Fusce vitae neque blandit lectus
-									faucibus aliquet nec vel ipsum. Integer mattis lacinia felis
-									vel sollicitudin molestie.</p>
+								<p>A good for you</p>
 								<br>
 
-								<h3 class="heading-md margin-bottom-20">Specifies</h3>
-								<div class="row">
-									<div class="col-sm-6">
-										<ul class="list-unstyled specifies-list">
-											<li><i class="fa fa-caret-right"></i>Brand Name: <span>Lacoste</span></li>
-											<li><i class="fa fa-caret-right"></i>Technics: <span>Computer</span>
-												Knitted</li>
-											<li><i class="fa fa-caret-right"></i>Sleeve Length: <span>Full</span></li>
-											<li><i class="fa fa-caret-right"></i>Sleeve Style: <span>Regular</span></li>
-											<li><i class="fa fa-caret-right"></i>Pattern Type: <span>PAID</span></li>
-											<li><i class="fa fa-caret-right"></i>Style: <span>Casual</span></li>
-										</ul>
-									</div>
-									<div class="col-sm-6">
-										<ul class="list-unstyled specifies-list">
-											<li><i class="fa fa-caret-right"></i>Material: <span>Cotton,Nylon</span></li>
-											<li><i class="fa fa-caret-right"></i>Item Type: <span>Pullovers</span></li>
-											<li><i class="fa fa-caret-right"></i>Thickness: <span>Thin</span></li>
-											<li><i class="fa fa-caret-right"></i>Model Number: <span>TM-11013
-											</span></li>
-											<li><i class="fa fa-caret-right"></i>Gender: <span>Men</span></li>
-											<li><i class="fa fa-caret-right"></i>MATERIAL: <span>80%COTTON+10%NYLON</span></li>
-										</ul>
-									</div>
-								</div>
+								
 							</div>
 							<div class="col-md-5">
 								<div class="responsive-video">
@@ -294,9 +266,9 @@
 									src="${url}/img/team/01.jpg" alt="">
 								<div class="product-comment-dtl">
 									<h4>
-										Mickel <small>22 days ago</small>
+										Son <small>22 days ago</small>
 									</h4>
-									<p>I like the green colour, it's very likeable and reminds
+									<p>I like the PTITHunter, it's very likeable and reminds
 										me of Hollister. A little loose though but I am very skinny</p>
 									<ul class="list-inline product-ratings">
 										<li class="reply"><a href="#">Reply</a></li>
@@ -362,131 +334,7 @@
 		<!--/end container-->
 		<!--=== End Content Medium ===-->
 
-		<!--=== Illustration v2 ===-->
-		<div class="container">
-			<div class="heading heading-v1 margin-bottom-20">
-				<h2>Product you may like</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-					odio elit, ultrices vel cursus sed, placerat ut leo. Phasellus in
-					magna erat. Etiam gravida convallis augue non tincidunt. Nunc
-					lobortis dapibus neque quis lacinia. Nam dapibus tellus sit amet
-					odio venenatis</p>
-			</div>
-
-			<div class="illustration-v2 margin-bottom-60">
-				<div class="customNavigation margin-bottom-25">
-					<a class="owl-btn prev rounded-x"><i class="fa fa-angle-left"></i></a>
-					<a class="owl-btn next rounded-x"><i class="fa fa-angle-right"></i></a>
-				</div>
-
-				<ul class="list-inline owl-slider-v4">
-					<li class="item"><a href="#"><img class="img-responsive"
-							src="${url}/img/thumb/09.jpg" alt=""></a>
-						<div class="product-description-v2">
-							<div class="margin-bottom-5">
-								<h4 class="title-price">
-									<a href="#">Double-breasted</a>
-								</h4>
-								<span class="title-price">$95.00</span>
-							</div>
-							<ul class="list-inline product-ratings">
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-							</ul>
-						</div></li>
-					<li class="item"><a href="#"><img class="img-responsive"
-							src="${url}/img/thumb/07.jpg" alt=""></a>
-						<div class="product-description-v2">
-							<div class="margin-bottom-5">
-								<h4 class="title-price">
-									<a href="#">Double-breasted</a>
-								</h4>
-								<span class="title-price">$60.00</span> <span
-									class="title-price line-through">$95.00</span>
-							</div>
-							<ul class="list-inline product-ratings">
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-							</ul>
-						</div></li>
-					<li class="item"><a href="#"><img class="img-responsive"
-							src="${url}/img/thumb/08.jpg" alt=""></a>
-						<div class="product-description-v2">
-							<div class="margin-bottom-5">
-								<h4 class="title-price">
-									<a href="#">Double-breasted</a>
-								</h4>
-								<span class="title-price">$95.00</span>
-							</div>
-							<ul class="list-inline product-ratings">
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-							</ul>
-						</div></li>
-					<li class="item"><a href="#"><img class="img-responsive"
-							src="${url}/img/thumb/06.jpg" alt=""></a>
-						<div class="product-description-v2">
-							<div class="margin-bottom-5">
-								<h4 class="title-price">
-									<a href="#">Double-breasted</a>
-								</h4>
-								<span class="title-price">$95.00</span>
-							</div>
-							<ul class="list-inline product-ratings">
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-							</ul>
-						</div></li>
-					<li class="item"><a href="#"><img class="img-responsive"
-							src="${url}/img/thumb/04.jpg" alt=""></a>
-						<div class="product-description-v2">
-							<div class="margin-bottom-5">
-								<h4 class="title-price">
-									<a href="#">Double-breasted</a>
-								</h4>
-								<span class="title-price">$95.00</span>
-							</div>
-							<ul class="list-inline product-ratings">
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-							</ul>
-						</div></li>
-					<li class="item"><a href="#"><img class="img-responsive"
-							src="${url}/img/thumb/03.jpg" alt=""></a>
-						<div class="product-description-v2">
-							<div class="margin-bottom-5">
-								<h4 class="title-price">
-									<a href="#">Double-breasted</a>
-								</h4>
-								<span class="title-price">$95.00</span>
-							</div>
-							<ul class="list-inline product-ratings">
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating-selected fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-								<li><i class="rating fa fa-star"></i></li>
-							</ul>
-						</div></li>
-				</ul>
-			</div>
-		</div>
-		<!--=== End Illustration v2 ===-->
+		
 
 		<!--=== Shop Suvbscribe ===-->
 		<div class="shop-subscribe">

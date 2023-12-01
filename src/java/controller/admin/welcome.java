@@ -1,4 +1,4 @@
-package Controller.admin;
+package controller.admin;
 
 import java.io.IOException;
 
@@ -23,3 +23,4 @@ public class welcome extends HttpServlet {
 	}
 
 }
+

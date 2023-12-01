@@ -41,7 +41,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<p>
-						2018 &copy; Development by Phuc Minh Dang Ha <a target="_blank"
+						2023 &copy; Development by Phuc Minh Dang Ha <a target="_blank"
 							href="https://www.facebook.com/phuc.in.12">Htmlstream</a> | <a
 							href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
 					</p>

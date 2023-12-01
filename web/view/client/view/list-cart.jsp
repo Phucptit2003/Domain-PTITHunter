@@ -81,7 +81,7 @@
 			<div class="container">
 				<span class="page-name">Check Out</span>
 				<h1>
-					Maecenas <span class="shop-green">enim</span> sapien
+					Save <span class="shop-green">your money</span> 
 				</h1>
 				<ul class="breadcrumb-v4-in">
 					<li><a href="index.html">Home</a></li>
@@ -177,7 +177,7 @@
 										<li>
 											<h4>Shipping:</h4>
 											<div class="total-result-in">
-												<span class="text-right">- - - -</span>
+												<span class="text-right">0</span>
 											</div>
 										</li>
 										<li class="divider"></li>
